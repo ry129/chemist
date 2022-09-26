@@ -24,9 +24,9 @@ A simple database connection mechanisms for save data to mysql server <br> <br>
     <br>
       ![alt text](    https://github.com/SS0809/chemist/blob/06b29ed751c0af10e24e94c19bf110cf8aa08959/browse_sql.PNG)
 # Expoting to Excel (csv format)
-    <br>
+<br>
     click on the export option and choose format csv for excel 
-    <br>
+<br>
    <b> click export<b>
     
     
