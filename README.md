@@ -16,6 +16,5 @@ A simple database connection mechanisms for save data to mysql server <br> <br>
  
  window like this should appear
 
- ![alt text](  https://github.com/SS0809/chemist/blob/ee0494627994acc62c674ef69913e598d3e79cab/sql_databse.PNG)
-  
+ ![alt text]( https://github.com/SS0809/chemist/blob/c6b8cc5e00f1e9a1bb51a5e7790d4d69924bfd9d/sql_databse.PNG)
   
