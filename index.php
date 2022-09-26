@@ -64,25 +64,25 @@ $sql = "INSERT INTO `pateint` ( `timestampp`, `opd`,  `drug1`, `qty1`, `drug2`, 
 <form class="blogdesire-form" method="post">
 
 <input type="text" name="OPD" placeholder="Enter OPD No." required autocomplete="off"> <br>
-<input type="text" name="Drug1" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug1" placeholder="Select Medicine Name (1)" autocomplete="off"> <br>
 <input type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug2" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug2" placeholder="Select Medicine Name (2)" autocomplete="off"> <br>
 <input type="text" name="Qty2" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug3" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug3" placeholder="Select Medicine Name (3)" autocomplete="off"> <br>
 <input type="text" name="Qty3" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug4" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug4" placeholder="Select Medicine Name (4)" autocomplete="off"> <br>
 <input type="text" name="Qty4" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug5" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug5" placeholder="Select Medicine Name (5)" autocomplete="off"> <br>
 <input type="text" name="Qty5" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug6" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug6" placeholder="Select Medicine Name (6)" autocomplete="off"> <br>
 <input type="text" name="Qty6" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug7" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug7" placeholder="Select Medicine Name (7)" autocomplete="off"> <br>
 <input type="text" name="Qty7" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug8" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug8" placeholder="Select Medicine Name (8)" autocomplete="off"> <br>
 <input type="text" name="Qty8" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug9" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug9" placeholder="Select Medicine Name (9)" autocomplete="off"> <br>
 <input type="text" name="Qty9" placeholder="Select Qty."  autocomplete="off"> <br>
-<input type="text" name="Drug10" placeholder="Select Medicine Name" autocomplete="off"> <br>
+<input type="text" name="Drug10" placeholder="Select Medicine Name (10)" autocomplete="off"> <br>
 <input type="text" name="Qty10" placeholder="Select Qty."  autocomplete="off"> <br>
 
 <input type="submit" name="submit" value="Submit" class="blogdesire-submit">
