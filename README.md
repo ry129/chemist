@@ -14,7 +14,18 @@ A simple database connection mechanisms for save data to mysql server <br> <br>
   ![alt text](https://github.com/SS0809/chemist/blob/cbfa2b8eb5bd2e81d61c525bb806b66fc6962696/sql_config.PNG)<br><br>
   <b>STEP 3 <b>   <b> Click on the chemist in the left<b>
  
- window like this should appear
-
+ window like this should appear . name that table (patient) and create
+    <br><br>
  ![alt text]( https://github.com/SS0809/chemist/blob/c6b8cc5e00f1e9a1bb51a5e7790d4d69924bfd9d/sql_databse.PNG)
   
+<b> STEP 4 : click on the import and import the patient.sql file 
+  <b>
+    after that click on the browse to see th esql entries
+    <br>
+      ![alt text](    https://github.com/SS0809/chemist/blob/06b29ed751c0af10e24e94c19bf110cf8aa08959/browse_sql.PNG)
+# Expoting to Excel (csv format)
+    
+![alt text](     https://github.com/SS0809/chemist/blob/06b29ed751c0af10e24e94c19bf110cf8aa08959/export_csv_for_excel.PNG )
+    
+    
+    
