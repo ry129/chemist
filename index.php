@@ -92,29 +92,44 @@ $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_mo
 </head>
 <body>
   <div>
-    <div>
+    <h2>
       AMIT DISPENSARY DATABASE
-    </div><br>
+    </h2><br>
 <style type="text/css">
     body{
         color: white;
         background-color: black;
-        font-size: 25px;
+        font-size: 20px;
     }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 0.5px solid #dddddd;
+  text-align: left;
+  padding: 2px;
+}
+.sau 
+{
+padding: 12px;
+}
 </style>
 <form method="post">
     <div>
 <label>OPD</label>
-<input type="text" name="OPD" placeholder="NUMBER" required autocomplete="off"> 
+<input class ="sau" type="text" name="OPD" placeholder="NUMBER" required autocomplete="off"> 
 </div>
 <br>
-<input id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name" onkeyup="showResult(this.value)"> 
-<input type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off">
-<input type="text" name="drugnum" placeholder="drugnum"  autocomplete="off">
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name" onkeyup="showResult(this.value)"> 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off">
+<input class = "sau"type="text" name="drugnum" placeholder="drugnum"  autocomplete="off">
 <div id="dam_return">
 </div> <br><br>
 <!--SELECT * FROM `entries` ORDER BY `entries`.`id` DESC-->
-<input type="submit" name="submit" value="Submit">
+<input class = "sau" type="submit" name="submit" value="Submit">
     </form>
   </div><br>
   <a href="./index.php">REFRESH</a>
@@ -146,12 +161,8 @@ function showResult(str) {
   xmlhttp.send();
 }
 </script>
-<table  style="width:100% ">
-  <tr>
-    <th style="color:white;">timestamp</th>
-    <th style="color:white;">opd</th>
-  </tr>
-</table>
+
+
 <?php
     $servername = "localhost";
     $username = "root";
@@ -164,14 +175,31 @@ function showResult(str) {
     else {
         die("Error". mysqli_connect_error());
 }
-$sql = "SELECT * FROM `entries` ORDER BY `entries`.`id` DESC";
+$sql = "SELECT * FROM `entries` ORDER BY `entries`.`id` DESC LIMIT 8;";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
+    echo '<table  style="width:100% ">
+  <tr>
+    <th style="color:white;">timestamp</th>
+       <th style="color:white;">opd</th>
+        <th style="color:white;">drug1</th> 
+           <th style="color:white;">drug2</th>   
+            <th style="color:white;">drug3</th>  
+              <th style="color:white;">drug4</th> 
+                 <th style="color:white;">drug5</th>  
+                   <th style="color:white;">drug6</th>
+                       <th style="color:white;">drug7</th> 
+                          <th style="color:white;">drug8</th>
+                              <th style="color:white;">drug9</th>
+                                  <th style="color:white;">drug10</th>
+  </tr>
+';
 while($row = $result->fetch_assoc()) {
-
-       echo '<tr><td>'.$row["timestampp"].'</td>'. '<td>'.$row["OPD"].'</td>'. /*'<td>'.$row["Drug1"].'</td>'. '<td>'.$row["Drug2"].'</td>'. '<td>'.$row["Drug3"].'</td>'. '<td>'.$row["Drug4"].'</td>'. '<td>'.$row["Drug5"].'</td>'. '<td>'.$row["Drug6"].'</td>'. '<td>'.$row["Drug7"].'</td>'. '<td>'.$row["Drug8"].'</td>'. '<td>'.$row["Drug9"].'</td>'. '<td>'.$row["Drug10"].'</td>'.*/ "<br>";
-}}
+       echo '<tr><td>'.$row["timestampp"].'</td>'. '<td>'.$row["OPD"].'</td>'. '<td>'.$row["Drug1"].'</td>'. '<td>'.$row["Drug2"].'</td>'. '<td>'.$row["Drug3"].'</td>'. '<td>'.$row["Drug4"].'</td>'. '<td>'.$row["Drug5"].'</td>'. '<td>'.$row["Drug6"].'</td>'. '<td>'.$row["Drug7"].'</td>'. '<td>'.$row["Drug8"].'</td>'. '<td>'.$row["Drug9"].'</td>'. '<td>'.$row["Drug10"].'</td>'. "</tr><br>";
+}
+echo "</table>";
+}
 ?>
 </body>
 </html>
