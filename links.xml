@@ -1,45 +1,302 @@
-<pages>
-<link>
-<title>The Grayman</title>
-</link>
-<link>
-<title>Uncharted</title>
-</link>
-<link>
-<title>Morbius</title>
-</link>
-<link>
-<title>fast and furious 9</title>
-</link>
-<link>
-<title>KGF 2</title>
-</link>
-<link>
-<title>Rakshabandhan</title>
-</link>
-<link>
-<title>Crash Course</title>
-</link>
-<link>
-<title>Shang Chi</title>
-</link>
-<link>
-<title>Super 30</title>
-</link>
-<link>
-<title>BULLET TRAIN</title>
-</link>
-<link>
-<title>EK VILLAIN RETURN</title>
-</link>
-<link>
-<title>VIKRAM</title>
-</link>
-<link>
-<title>Stranger Things</title>
-</link>
-<link>
-<title>Brahmastra</title>
-</link>
-
-</pages>
+   <pages>
+        <link>
+            <title>ZYTEE CR.</title>
+        </link>
+        <link>
+            <title>ZINC TB.</title>
+        </link>
+        <link>
+            <title>XYLOMETAZOLINE NASAL DROP</title>
+        </link>
+        <link>
+            <title>TRYPSIN TB.</title>
+        </link>
+        <link>
+            <title>TRANEXAMIC+MEFENAMIC TB.</title>
+        </link>
+        <link>
+            <title>TRANEXAMIC TB.</title>
+        </link>
+        <link>
+            <title>TRAMADOL CAP.</title>
+        </link>
+        <link>
+            <title>TORESEMIDE TB.</title>
+        </link>
+        <link>
+            <title>TOBRAMYCIN EYE DROP</title>
+        </link>
+        <link>
+            <title>TINIDAZOLE TB.</title>
+        </link>
+        <link>
+            <title>THIOCOLCHICOSIDE TB.</title>
+        </link>
+        <link>
+            <title>TAMSULOSIN TB.</title>
+        </link>
+        <link>
+            <title>SUCRALFATE SP.</title>
+        </link>
+        <link>
+            <title>SODIUM VALPROATE TB.</title>
+        </link>
+        <link>
+            <title>SERTACONAZOLE CR.</title>
+        </link>
+        <link>
+            <title>SALINE NASAL DROP</title>
+        </link>
+        <link>
+            <title>RESPULE SL.</title>
+        </link>
+        <link>
+            <title>RANTAC TB.</title>
+        </link>
+        <link>
+            <title>PREGABALIN CAP.</title>
+        </link>
+        <link>
+            <title>PREDNISOLONE TB.</title>
+        </link>
+        <link>
+            <title>PERMETHRIN LT.</title>
+        </link>
+        <link>
+            <title>PCM TB.</title>
+        </link>
+        <link>
+            <title>PCM SP.</title>
+        </link>
+        <link>
+            <title>OMEPRAZOLE CAP.</title>
+        </link>
+        <link>
+            <title>O.R.S. SL.</title>
+        </link>
+        <link>
+            <title>NORETHISTERONE TB.</title>
+        </link>
+        <link>
+            <title>MULTIVITAMIN SP.</title>
+        </link>
+        <link>
+            <title>MONTELEUKAST TB.</title>
+        </link>
+        <link>
+            <title>METROGYL TB.</title>
+        </link>
+        <link>
+            <title>METROGYL SP.</title>
+        </link>
+        <link>
+            <title>METFORMIN TB.</title>
+        </link>
+        <link>
+            <title>MEDROXYPROGESTERONE TB.</title>
+        </link>
+        <link>
+            <title>MDI INH.</title>
+        </link>
+        <link>
+            <title>LOSARTAN+HCTZ TB.</title>
+        </link>
+        <link>
+            <title>LIGNOCAINE CR.</title>
+        </link>
+        <link>
+            <title>LEVOFLOXACIN TB.</title>
+        </link>
+        <link>
+            <title>LACTULOSE SP.</title>
+        </link>
+        <link>
+            <title>KETOCONAZOLE LT.</title>
+        </link>
+        <link>
+            <title>ITRACONAZOLE CAP.</title>
+        </link>
+        <link>
+            <title>ISOSORBIDE TB.</title>
+        </link>
+        <link>
+            <title>IRON (IFA) TB.</title>
+        </link>
+        <link>
+            <title>IBUPROFEN TB.</title>
+        </link>
+        <link>
+            <title>IBUPROFEN SP.</title>
+        </link>
+        <link>
+            <title>H.T.M. CR.</title>
+        </link>
+        <link>
+            <title>GLIMEPIRIDE TB.</title>
+        </link>
+        <link>
+            <title>GABAPENTIN &amp; NORTRY. TB.</title>
+        </link>
+        <link>
+            <title>FRAMYCETIN CR.</title>
+        </link>
+        <link>
+            <title>FOLIC ACID TB.</title>
+        </link>
+        <link>
+            <title>FLUOROMETHOLONE EYE DROP</title>
+        </link>
+        <link>
+            <title>FLUNARAZINE TB.</title>
+        </link>
+        <link>
+            <title>FLUCONAZOLE TB.</title>
+        </link>
+        <link>
+            <title>ETO.+THEO. TB.</title>
+        </link>
+        <link>
+            <title>EAR WAX DISSOLVING DROP</title>
+        </link>
+        <link>
+            <title>DROTAVERINE TB.</title>
+        </link>
+        <link>
+            <title>DOMEPERIDONE TB.</title>
+        </link>
+        <link>
+            <title>DISODIUM HYDROGEN SP.</title>
+        </link>
+        <link>
+            <title>DICLOFENAC TB.</title>
+        </link>
+        <link>
+            <title>DICLOFENAC GEL</title>
+        </link>
+        <link>
+            <title>DICLO+PARA TB.</title>
+        </link>
+        <link>
+            <title>DEXAMETHASONE TB.</title>
+        </link>
+        <link>
+            <title>CTZ TB.</title>
+        </link>
+        <link>
+            <title>CTZ SP.</title>
+        </link>
+        <link>
+            <title>CRAPE BANDAGE</title>
+        </link>
+        <link>
+            <title>COUGH SP.</title>
+        </link>
+        <link>
+            <title>CO-TRIMOXAZOLE TB.</title>
+        </link>
+        <link>
+            <title>CLOTRIMAZOLE PESSARIES</title>
+        </link>
+        <link>
+            <title>CLOTRIMAZOLE PAINT</title>
+        </link>
+        <link>
+            <title>CLOTRIMAZOLE EAR DROP</title>
+        </link>
+        <link>
+            <title>CLOTRIMAZOLE CR.</title>
+        </link>
+        <link>
+            <title>CLOPIDOGREL TB.</title>
+        </link>
+        <link>
+            <title>CLOBETASOL+GENTAMYCIN CR.</title>
+        </link>
+        <link>
+            <title>CLINDAMYCIN GEL</title>
+        </link>
+        <link>
+            <title>CIPROFLOXACIN TB.</title>
+        </link>
+        <link>
+            <title>CIPROFLOXACIN EYE DROP</title>
+        </link>
+        <link>
+            <title>CINNARIZINE TB.</title>
+        </link>
+        <link>
+            <title>CHOLECALCIFEROL D3 TB.</title>
+        </link>
+        <link>
+            <title>CEFIXIME TB.</title>
+        </link>
+        <link>
+            <title>CEFIXIME SP.</title>
+        </link>
+        <link>
+            <title>CARBAMAZEPINE TB.</title>
+        </link>
+        <link>
+            <title>CALCIUM TB.</title>
+        </link>
+        <link>
+            <title>CALCIUM SP.</title>
+        </link>
+        <link>
+            <title>CALAMINE LT.</title>
+        </link>
+        <link>
+            <title>C.M.C. EYE DROP</title>
+        </link>
+        <link>
+            <title>BISACODYL TB.</title>
+        </link>
+        <link>
+            <title>B-COMPLEX TB.</title>
+        </link>
+        <link>
+            <title>AZITHROMYCIN TB.</title>
+        </link>
+        <link>
+            <title>AZITHROMYCIN SP.</title>
+        </link>
+        <link>
+            <title>ATORVASTATIN TB.</title>
+        </link>
+        <link>
+            <title>ATENOLOL TB.</title>
+        </link>
+        <link>
+            <title>ASPIRIN TB.</title>
+        </link>
+        <link>
+            <title>ASCORBIC ACID TB.</title>
+        </link>
+        <link>
+            <title>ANTACID/RANITIDINE SP.</title>
+        </link>
+        <link>
+            <title>AMOXYCLAV 625MG TB.</title>
+        </link>
+        <link>
+            <title>AMOXYCLAV 228.5MG TB.</title>
+        </link>
+        <link>
+            <title>AMOXICILLIN SP.</title>
+        </link>
+        <link>
+            <title>AMOXICILLIN CAP.</title>
+        </link>
+        <link>
+            <title>AMLODIPINE TB.</title>
+        </link>
+        <link>
+            <title>ALPRAZOLAM TB.</title>
+        </link>
+        <link>
+            <title>ALBENDAZOLE TB.</title>
+        </link>
+        <link>
+            <title>ALBENDAZOLE SP.</title>
+        </link>
+    </pages>

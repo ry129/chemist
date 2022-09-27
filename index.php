@@ -115,7 +115,7 @@ $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_mo
 <input type="text" name="OPD" placeholder="NUMBER" required autocomplete="off"> 
 </div>
 <br>
-<input id = "dam"  type="text" name="Drug1" placeholder="Select Medicine Name (1)" onkeyup="showResult(this.value)"> 
+<input id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name (1)" onkeyup="showResult(this.value)"> 
 <input type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off">
 <div id="dam_return">
 </div>
