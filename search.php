@@ -18,9 +18,9 @@ if (strlen($q)>0) {
       if (stristr($y->item(0)->childNodes->item(0)->nodeValue,$q)) {
 
         if ($hint=="") {
-$hint="<div id='dam_return'><a href='#' class='test' onclick=\"document.getElementById('dam').value='".$y->item(0)->childNodes->item(0)->nodeValue."'\">" .
+$hint="<div id='dam_return'><h6 href='#' class='test' onclick=\"document.getElementById('dam').value='".$y->item(0)->childNodes->item(0)->nodeValue."'\">" .
           $y->item(0)->childNodes->item(0)->nodeValue .
-           "</a></div>";
+           "</h6></div>";
         } else {/*
           $hint=$hint . "<br /><h6 onclick = 'change();' >" .
           $y->item(0)->childNodes->item(0)->nodeValue . "</a>";*/
