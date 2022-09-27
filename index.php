@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+//error_reporting(0);
 date_default_timezone_set("Asia/Calcutta");
 if(isset($_POST['submit'])){
 
@@ -129,7 +129,6 @@ $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_mo
         input.val(value);
     });
 });
-
 function showResult(str) {
   if (str.length==0) {
     document.getElementById("dam_return").innerHTML="";
@@ -147,5 +146,32 @@ function showResult(str) {
   xmlhttp.send();
 }
 </script>
+<table  style="width:100% ">
+  <tr>
+    <th style="color:white;">timestamp</th>
+    <th style="color:white;">opd</th>
+  </tr>
+</table>
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "chemist";
+    $conn = mysqli_connect($servername,
+        $username, $password, $database);
+    if($conn) {
+    }
+    else {
+        die("Error". mysqli_connect_error());
+}
+$sql = "SELECT * FROM `entries` ORDER BY `entries`.`id` DESC";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+  // output data of each row
+while($row = $result->fetch_assoc()) {
+
+       echo '<tr><td>'.$row["timestampp"].'</td>'. '<td>'.$row["OPD"].'</td>'. /*'<td>'.$row["Drug1"].'</td>'. '<td>'.$row["Drug2"].'</td>'. '<td>'.$row["Drug3"].'</td>'. '<td>'.$row["Drug4"].'</td>'. '<td>'.$row["Drug5"].'</td>'. '<td>'.$row["Drug6"].'</td>'. '<td>'.$row["Drug7"].'</td>'. '<td>'.$row["Drug8"].'</td>'. '<td>'.$row["Drug9"].'</td>'. '<td>'.$row["Drug10"].'</td>'.*/ "<br>";
+}}
+?>
 </body>
 </html>
