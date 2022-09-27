@@ -131,7 +131,7 @@ $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_mo
 <input type="text" name="Qty9" placeholder="Select Qty."  autocomplete="off"> 
 <input id = "dam" type="text" name="Drug10" onkeyup="showResult(this.value)"> 
 <input type="text" name="Qty10" placeholder="Select Qty." >--> <br><br>
-
+<!--SELECT * FROM `entries` ORDER BY `entries`.`id` DESC-->
 <input type="submit" name="submit" value="Submit">
     </form>
   </div><br>
