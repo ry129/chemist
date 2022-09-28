@@ -1,5 +1,5 @@
 <?php
-//error_reporting(0);
+error_reporting(0);
 date_default_timezone_set("Asia/Calcutta");
 if(isset($_POST['submit'])){
 
@@ -18,63 +18,81 @@ $timestampp = date("dmyhis");
 $opd = $_POST['OPD'];
 $Drug1 = $_POST['Drug1'];
 $Qty1 = $_POST['Qty1'];
+$Drug2 = $_POST['Drug2'];
+$Qty2 = $_POST['Qty2'];
+$Drug3 = $_POST['Drug3'];
+$Qty3 = $_POST['Qty3'];
+$Drug4 = $_POST['Drug4'];
+$Qty4 = $_POST['Qty4'];
+$Drug5 = $_POST['Drug5'];
+$Qty5 = $_POST['Qty5'];
+$Drug6 = $_POST['Drug6'];
+$Qty6 = $_POST['Qty6'];
+$Drug7 = $_POST['Drug7'];
+$Qty7 = $_POST['Qty7'];
+$Drug8 = $_POST['Drug8'];
+$Qt81 = $_POST['Qty8'];
+$Drug9 = $_POST['Drug9'];
+$Qt91 = $_POST['Qty9'];
+$Drug10 = $_POST['Drug10'];
+$Qty10 = $_POST['Qty10'];
 $drugnum = $_POST['drugnum'];
 //SELECT * FROM `stock maINTenance` WHERE `medicine` LIKE '%SEARCH%';
-if ($drugnum == "1") {
+if ($Drug1 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug1`, `qty1`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "2") {
+if ($Drug2 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug2`, `qty2`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "3") {
+if ($Drug3 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug3`, `qty3`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "4") {
+if ($Drug4 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug4`, `qty4`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "5") {
+if ($Drug5 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug5`, `qty5`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "6") {
+if ($Drug6 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug6`, `qty6`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "7") {
+if ($Drug7 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug7`, `qty7`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "8") {
+if ($Drug8 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug8`, `qty8`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "9") {
+if ($Drug9 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug9`, `qty9`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
      $result = mysqli_query($conn, $sql); 
 }
-if ($drugnum == "10") {
+if ( $Drug10 != "") {
 $sql = "UPDATE `stock maintenance` SET Balance = Opening_stock - Used_in_this_month_till_now ,Used_in_this_month_till_now  = Used_in_this_month_till_now + '$Qty1'  WHERE Medicine =  '$Drug1' ; ";
      $result = mysqli_query($conn, $sql); 
      $sql = "INSERT INTO `entries` ( `timestampp`, `opd`,  `drug10`, `qty10`) VALUES ( '$timestampp ', '$opd',  '$Drug1', '$Qty1'); ";
@@ -123,9 +141,27 @@ padding: 12px;
 <input class ="sau" type="text" name="OPD" placeholder="NUMBER" required autocomplete="off"> 
 </div>
 <br>
-<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name" onkeyup="showResult(this.value)"> 
-<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off">
-<input class = "sau"type="text" name="drugnum" placeholder="drugnum"  autocomplete="off">
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 1" > <!--onkeyup="showResult(this.value)"-->
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 2" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 3" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 4" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 5" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 6" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 7" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 8" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 9" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br>
+<input class = "sau"id = "dam" type="text" name="Drug1" placeholder="Select Medicine Name 10" > 
+<input class = "sau"type="text" name="Qty1" placeholder="Select Qty."  autocomplete="off"><br><!--
+<input class = "sau"type="text" name="drugnum" placeholder="drugnum"  autocomplete="off">-->
 <div id="dam_return">
 </div> <br><br>
 <!--SELECT * FROM `entries` ORDER BY `entries`.`id` DESC-->
